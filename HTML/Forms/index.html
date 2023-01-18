@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="#" method="post">
+		<option action="#" method="post">
+			<fieldset>
+				<legend>Contact Us</legend> First name
+				<br>
+				<input type="text" placeholder="Enter Your First Name">
+				<br>
+				<br> Last Name
+				<br>
+				<input type="text" placeholder="Enter Your Last Name">
+				<br>
+				<br>
+				<input type="radio" name="gender"> Female
+				<br>
+				<input type="radio" name="gender"> Male
+				<br>
+				<input type="radio" name="gender"> Other
+				<br>
+				<br>
+				<input type="submit" value="Sent"> </fieldset>
+		</option>
+	</form>
+	<!-- Form Elements Full -->
+	<select name="" id="" multiple size="2">
+		<option value="">rubel</option>
+		<option value="" selected>GG</option>
+		<option value="">bb</option>
+	</select>
+	<!-- Either one will always be selected -->
+	<select name="" id="">
+		<option value="rubel">rubel</option>
+		<option value="ana" selected>ubel</option>
+		<option value="ubel">bel</option>
+		<option value="bel">el</option>
+	</select>
+	<!-- All will be selected or 2 will be selected -->
+	<select name="" id="" multiple size="2">
+		<option action="">Rubel</option>
+		<option action="">korim</option>
+		<option action="">Rohim</option>
+		<option action="">kamal</option>
+	</select>
+	<br>
+	<!-- TextBox Massage -->
+	<textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Massage Here:"></textarea>
+	<br>
+	<!-- DataList and Suggest in Form -->
+	<h2>The datalist element</h2>
+	<form action="#" method="post">
+		<label for="abc">Choose your browser from the list:</label>
+		<input type="text" name="abc" list="gg">
+		<datalist id="gg">
+			<option value="a">a</option>
+			<option value="b">b</option>
+			<option value="c">c</option>
+		</datalist>
+		<input type="submit" value="Sent"> </form>
+	<p><strong>Note:</strong>The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+	<br>
+	<!-- Form Post Method Use -->
+	<form action="#" method="post"> Enter First name
+		<input type="text" name="user">
+		<br> Enter Second Name
+		<input type="password" name="pass">
+		<br>
+		<input type="submit" value="sent"> </form>
+</body>
+
+</html>
